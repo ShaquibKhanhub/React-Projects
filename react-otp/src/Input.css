@@ -1,0 +1,48 @@
+.cont {
+
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 40%;
+    height: 300px;
+    padding: 20px;
+    margin-top: 100px;
+
+}
+
+h1 {
+    margin-top: 80px;
+}
+
+
+input {
+    width: 40px;
+    height: 40px;
+    margin: 2px;
+    border-radius: 10px;
+    border: 0.9px solid gray;
+    text-align: center;
+}
+
+input:focus {
+    outline-color: blue;
+}
+
+button {
+    height: 40px;
+    width: 100px;
+    border-radius: 8px;
+    border: none;
+    color: #ffffff;
+    background-color: teal;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.error{
+    border: 1px solid red;
+}
