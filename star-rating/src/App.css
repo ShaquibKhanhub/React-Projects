@@ -1,0 +1,25 @@
+.star-cont{
+    text-align: center;
+
+}
+
+.star{
+    margin: 10px;
+    font-size: 70px ;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.off{
+    color: gray;
+}
+
+.on{
+    color: #f7ff1a;
+}
+
