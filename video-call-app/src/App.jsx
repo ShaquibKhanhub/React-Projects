@@ -47,7 +47,9 @@ function App() {
     const zp = ZegoUIKitPrebuilt.create(TOKEN);
     zp.addPlugins({ ZIM });
 
-    if (!calleeId) {
+    let callee = calleeId;
+
+    if (!callee) {
       alert("Please input callee ID");
       return;
     }
